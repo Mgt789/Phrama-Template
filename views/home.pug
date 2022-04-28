@@ -1,0 +1,214 @@
+doctype html
+head
+  // Required meta tags
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+
+  style 
+    include ../style/style.css  
+    include ../style/respo.css  
+
+
+  // Bootstrap CSS
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous')
+  // w3-cdn
+  link(rel='stylesheet' href='https://www.w3schools.com/w3css/4/w3.css')
+
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css' integrity='sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==' crossorigin='anonymous' referrerpolicy='no-referrer')
+  title Quality-medical-care
+.container-fluid
+  // demo
+  // navbar
+  header
+    nav.navbar.navbar-expand-lg
+      .container
+        a.navbar-brand(href='#') logo
+        button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+            i.fa.fa-bars
+        #navbarNavAltMarkup.collapse.navbar-collapse
+          .navbar-nav.ms-auto
+            a.nav-link.active(aria-current='page' href='#') Home
+            a.nav-link(href='#') Features
+            a.nav-link(href='#') Pricing
+    // navbar-end
+    .row.g-0.bg
+      .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-12
+        .container
+          .banner-text
+            h3 Your Health Is Your Priority
+            h1 Quality Care
+            p We will help you to feel better and enjoy every single day of your life.
+            button.btn READ MORE
+      .col-xl-6.col-lg-6.col-md-6.col-sm-6.col-12
+        .background
+          img.img-fluid.ms-auto.d-block(src='https://images03.nicepage.com/c461c07a441a5d220e8feb1a/c422f6d6ed935f9182ef06f2/sd-min.jpg ' height='776px')
+    // demo-end
+    // timetable
+    section
+      .container.mt-5.tt-container.mb-5
+        .row.tt-area
+          .col-xl-9.col-lg-9.col-md-12.col-md-9.col-12
+            .timetable-icon
+              .row.g-0.mb-5
+                .col.col-xl-4.col-lg-4.col-md-6.col-sm-12.col-12
+                  i.fa.fa-user
+                  h2 Consultation
+                  p by professional
+                .col.col-xl-4.col-lg-4.col-md-6.col-sm-12.col-12
+                  i.fa.fa-file-text
+                  h2 Diagnosis
+                  p accurate approach
+                .col.col-xl-4.col-lg-4.col-md-6.col-sm-12.col-12
+                  i.fa.fa-medkit
+                  h2 Treatment
+                  p individual approach
+                // </div>
+                // <div class="row mt-5">
+                .col.col-xl-4.col-lg-4.col-md-6.col-sm-12.col-12
+                  i.fa.fa-heartbeat
+                  h2 Pregnancy care
+                  p safety and carefully
+                .col.col-xl-4.col-lg-4.col-md-6.col-sm-12.col-12
+                  i.fa.fa-child
+                  h2 Pediatric
+                  p high-quality kids care
+                .col.col-xl-4.col-lg-4.col-md-6.col-sm-12.col-12
+                  i.fa.fa-heart
+                  h2 Online Help
+                  p 24/7
+          .col-xl-3.col-lg-3.col-md-3.col-md-12.col-12
+            .blue-div
+              h3 Check Our
+              h1 Weekly Timetable
+              p
+                | You can make an appointment , select the convient time and choose the appropriate
+                | doctor here.
+              button.btn READ MORE
+    // timetable-end
+    // Health care
+    section
+      .container.pt-5
+        .row.g-0
+          .col-xl-6.col-lg-6.col-md-6.col-sm-12.col-12
+            .doctor
+              img.img-fluid.mx-auto.d-block(src='https://images03.nicepage.com/c461c07a441a5d220e8feb1a/890a23fe9865576993c775a4/2e69aabe-c496-6658-d688-2612508a6b44.jpg' alt='')
+          .col-xl-6.col-lg-6.col-md-6.col-sm-12.col-12
+            .health-care-text
+              h3 We Provide
+              h1 Total Health Care
+              p
+                | We provide the most full medical services, so every person could have the opportunity
+                | to
+                | receive qualitative medical help.
+              p
+                | Clinical excellence, diversity, and access to innovative technology are all
+                | hallmarks of
+                | the graduate medical education experience at Caring Doc. Our residents, fellows, and
+                | renowned staff share their experience working at Caring Doc.
+              p#bold
+                | We try to do our best to help you and provide with a high-quality services.
+              button.btn READ MORE
+    // Health care-end
+    // consultation
+    section
+      .container.pt-5
+        .row.g-0
+          .col-xl-6.col-lg-6.col-md-6.col-sm-12.col-12
+            .consultation-text
+              h1 Get Online Consultation
+              p
+                | In most cases, the initial consultation will be sufficient. In more complicated
+                | cases, a second, follow-up consultation may be necessary. You can contact our center
+                | at any time and ask your questions. Our professional support representative will
+                | answer your questions with great pleasure.
+              h3 Take the First Step to Help 
+              h3 111 222 22 11
+          .col-xl-6.col-lg-6.col-md-6.col-sm-12.col-12
+            .consultation
+              img.img-fluid.mx-auto.d-block(src='https://images03.nicepage.com/c461c07a441a5d220e8feb1a/aaab818011ea5084970a7b1e/min.jpg' alt='')
+    // consultation-end
+    // Our Team
+    section
+      .team-heading.mt-5
+        h1 Our Team
+      .our-team-img.pb-5
+        .row
+          .col-xl-4.col-lg-4.col-md-4.col-sm-12.col-12.team-text
+            img(src='https://images03.nicepage.com/c461c07a441a5d220e8feb1a/22ab52d8187a581f83e9cae4/2.jpg' alt='')
+            h2 Dr. Jessica Tailor
+            p Dental Implant Surgeon
+          .col-xl-4.col-lg-4.col-md-4.col-sm-12.col-12.team-text
+            img(src='https://images03.nicepage.com/c461c07a441a5d220e8feb1a/feaa0f97bbfb539fae623d68/s.jpg' alt='')
+            h2 Dr. Brian Adam
+            p Restorative Dentist
+          .col-xl-4.col-lg-4.col-md-4.col-sm-12.col-12.team-text
+            img(src='https://images03.nicepage.com/c461c07a441a5d220e8feb1a/df89534f3f3a50e2a65b699a/1.jpg' alt='')
+            h2 Dr. Linda Feldman
+            p Cosmetic Dental Surgeon
+    // Our Team-end
+    // slider
+    section
+      .slider
+        .w3-content
+          h1 What people say
+          .mySlides
+            img(src='https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/e45b9a65f2a253438a1fa514/pexels-photo-3714743.jpeg' alt='')
+            p
+              | &quot;Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur, mauris
+              | in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id metus. Maecenas
+              | ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam leo et semper
+              | vestibulum.&quot;
+            h3 Marry Loo
+          .mySlides
+            img(src='https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/d9131b66fb5a5db28530d18e/pexels-photo-3779702.jpeg' alt='')
+            p
+              | &quot;Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur, mauris
+              | in auctor euismod, quam elit ultrices urna, eget eleifend arcu risus id metus. Maecenas
+              | ex enim, mattis eu velit vitae, blandit mattis sapien. Sed aliquam leo et semper
+              | vestibulum.&quot;
+            h3 Frank Kinney
+    // slider-end
+    // footer-banner
+    section
+      .f-banner
+        img.img-fluid.mx-auto.d-block(src='https://images03.nicepage.com/c461c07a441a5d220e8feb1a/151d7b138ebe5b11a28ac9e6/billionphotos1232770.jpg' alt='')
+    // footer-banner-end
+    // Appointment
+    section
+      .container.mt-5.pb-5.appointment
+        .row
+          .col-xl-4.col-lg-4.col-md-4.col-sm-12.col-12.text-area
+            h1
+              | Make an Appointment
+          .col-xl-8.col-lg-8.col-md-8.col-sm-12.col-12
+            .text-area
+              input.form-control.form-control-lg(type='text' placeholder='Enter your Name')
+              input.form-control.form-control-lg(type='text' placeholder='Enter a valid email address')
+              textarea#review(name='review' rows='6' cols='50')
+        .text-center
+          button.btn READ MORE
+    // Appointment-end
+    // footer
+    section
+      .footer.pt-5.pb-5
+        p
+          | copyright &copy; 2022. All rights reserved.
+    // footer-end
+    // slider script
+    script.
+      var slideIndex = 0;
+      carousel();
+      function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) { slideIndex = 1 }
+      x[slideIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000);
+      }
+    // slider script-end
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js' integrity='sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM' crossorigin='anonymous')
